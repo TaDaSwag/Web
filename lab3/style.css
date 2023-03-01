@@ -1,0 +1,128 @@
+* {
+    /* Áp dụng hành vi => width lúc này sẽ bao cả border, padding và content */
+    /* Áp dụng thuộc tính width cho cả phần tử border */
+    box-sizing: border-box;
+    /* Reset các margin và padding mặc định */
+    margin: 0;
+    padding: 0;
+
+}
+
+/*Bộ quy tắc CSS */
+h1 /*Selector- Áp dụng thuộc tính css cho các thẻ h1*/ {
+    color: rgb(171, 12, 12);
+    font-size: 50px;
+    line-height: 2;
+    /*in đậm*/
+    font-weight: 600;
+    /*kiểu chữ*/
+    font-style: italic;
+    /*in hoa*/
+    text-transform: uppercase;
+    /*căn giữa*/
+    text-align: center;
+
+}
+a.nav__link {
+    color: rgb(102, 6, 14);
+    font-weight: bold;
+    text-decoration: none;
+/* Sử dụng combine thường để ghi đè thuộc tính CSS */
+}
+.nav__link.nav__link--active{
+    color: black;
+}
+
+/* Chỉ áp dụng cho các thẻ box */
+.box {
+    /* Thay đổi kiểu hiển thị */
+    display: inline; /*mặc định */
+    display: block;
+    /* display:none; ẩn phần tử - hidden */
+
+    /*màu nền cho box */
+    background-color: rgb(11, 242, 242);
+
+    /*conten */
+    /* Chỉ định chiều rộng hiển thị nội dung */
+    width: 300px;
+    /*Mặc định, chiều cao tự co giãn cho khớp với nội dung */
+
+    /*padding - Phần lề xung quanh nội dung */
+    /* thuộc tính viết tắt - shorthand */
+    /* padding: top right bottom left; */
+    /* padding: all; */
+    /* padding: top left-right bottom; */
+    padding: 30px;
+
+    /*Border */
+    /* Kiểu viền  - Màu viền - Kích thước viền - Bo viền */
+    border:10px solid gray ;
+    border-radius: 10px;
+
+
+    /*Margin - Khoảng cách giữa các phần tử */
+    margin-bottom: 50px;
+
+
+    /* Overflow */
+    /* Box Shadow */
+    /* Tìm hiểu thêm một số Pseudo Class (active, focus, focus-within) */
+    /* Pseudo Element: nth-child, :first-child */
+}
+
+
+/*Standard Color - Tên màu*/
+/* Hỗ trợ 16tr màu  */
+/* Hex - #rrggbb - Hệ cơ số 16 (0-9abcdef) */
+/* RGB - rbg (red, green, blue) */
+/* RGBA (Opacity) rgba(red, green, blue, opacity) */
+
+img {
+    max-width: 100%;
+}
+
+.card {
+    width: 300;
+    border-radius: 4px;
+    box-shadow: 0 2px 5px rgb(0 0 0 / 15%);
+    color: #464646;
+    overflow: hidden;
+
+}
+
+.card-info{
+    padding: 10px;
+}
+
+.card-body {
+    background-color: #ffffff;
+}
+
+.card-title {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #464646;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.card-excerpt, .card-meta {
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.card-meta {
+    border-top: 1px solid;
+    display: flex;
+    justify-content: flex-start;
+    padding: 16px;
+}
+.card-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+    
+}

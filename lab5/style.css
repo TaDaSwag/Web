@@ -1,0 +1,11 @@
+
+.mangalist {
+    display: flex;
+    gap: 85px;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.mangalist img {
+    width: 500px;
+}
