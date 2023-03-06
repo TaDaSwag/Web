@@ -1,0 +1,165 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  width: 10%;
+  height: 100;
+  object-fit: cover;
+  display: inline-block;
+}
+
+/* header */
+.header-top {
+  display: flex;
+  padding: 32px 40px;
+  justify-content: space-between;
+}
+
+.page-logo {
+  line-height: 28px;
+  background-position: 0px 0px;
+  background-size: contain;
+  color: #333;
+}
+
+.header-top {
+  display: flex;
+  padding: 1rem 2rem;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 35px;
+  line-height: 28px;
+  padding: 10px 20px;
+}
+.page-logo {
+  display: inline-block;
+  font-weight: 500;
+  line-height: 28px;
+  padding: 0px 0px 0px 15px;
+  text-decoration: none;
+}
+
+/* header bottom */
+.header-bottom {
+  padding: 0 4.8rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+}
+
+.header-nav {
+  background-color: #fff;
+  color: #32343a;
+}
+.header-nav a {
+  display: inline-block;
+  padding: 3rem 2rem;
+  font-size: 18px;
+  text-decoration: none;
+}
+
+.header-nav a.active {
+  background-color: #333;
+  color: #fff;
+}
+
+.header-nav a:hover {
+  background-color: #333;
+  color: #fff;
+}
+
+.header-bottom .header-btn-link {
+  align-self: center;
+}
+
+/* Main */
+.my-content {
+  background-color: rgba(0, 0, 0, 0.12);
+  display: flex;
+  flex-direction: column;
+  padding: 0 4rem;
+  justify-content: center;
+  color: #1a1b1f;
+}
+
+.my-career {
+  display: flex;
+  font-size: 35px;
+  font-weight: 300px;
+  line-height: 50px;
+  margin: 0px 0px 50px;
+}
+
+.heading-lg {
+  font-size: 80px;
+  color: black;
+  font-weight: 500;
+  line-height: 90px;
+  margin: 10px 0px;
+}
+
+.paragraph {
+  font-size: 25px;
+  font-weight: 300;
+  line-height: 39px;
+  margin: 0px 0px 50px;
+}
+
+.heading-career {
+  color: #1a1b1f;
+}
+
+.paragraph-1 {
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 32px;
+  margin: 0px 0px 50px;
+}
+
+.my-partner {
+  display: grid;
+  font-size: 44px;
+}
+
+.heading-ow {
+  color: #1a1b1f;
+}
+
+.about-her her {
+  font-size: 20px;
+}
+
+.intouch-container {
+  display: flex;
+  font-size: 35px;
+  color: #8f929e;
+}
+
+.heading-it {
+  color: #1a1b1f;
+  font-size: 64px;
+  font-weight: 500;
+  line-height: 88px;
+  margin: 15px 0px 20px;
+  text-align: left;
+}
+
+
+.btn-it {
+  align-items: flex-start;
+  background-color: #1a1b1f;
+  border-radius: 8px;
+  color: #ffffff;
+  display: flex;
+  font-size: 15px;
+  font-weight: 500;
+  justify-content: center;
+  line-height: 20px;
+  padding: 16px 25px 12px;
+  text-align: center;
+}

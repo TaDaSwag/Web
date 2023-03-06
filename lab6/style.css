@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* .dropdown-menu {
+    background-color: white;
+    padding: 10px;
+    top: 100%;
+    left: 0;
+    position: absolute;
+    display: none;
+    list-style-type: none;
+    width: 250px;
+    box-sizing: 0 2px 10px rgba(0 0 0/ 10%);
+} */
+
+/* .dropdown {
+    padding: 10px;
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-button {
+    background-color: yellow;
+    border: 0;
+    padding: 10px 20px;
+    text-transform: uppercase;
+}
+
+.dropdown:hover > .dropdown-menu {
+    display: block;
+}
+
+
+.dropdown-item {
+    
+    padding: 5px 10px;
+    
+} */
+/* Nav */
+
+.nav {
+    background-color: rgb(111, 111, 254);
+    padding-bottom: 3px;
+}
+
+.nav-menu {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    background-color: rgb(55, 37, 37);
+}
+
+.nav-item {
+    background-color: rgb(55, 37, 37);
+    position: relative;
+}
+
+.nav-item.active,
+.nav-item:hover {
+    background-color: rgb(111, 111, 254);
+}
+
+.nav-link {
+    color: #ffffff;
+    text-transform: uppercase;
+    padding: 12px 25px;
+    display: block;
+    text-decoration: none;
+}
+
+.nav-dropdown {
+    position: absolute;
+    display: none;
+    background-color: #ffffff;
+    width: 200px;
+}
+
+.nav-item:hover > .nav-dropdown {
+    display: block;
+}
+
+.nav-dropdown .sub-menu {
+    list-style-type: none;
+}
+
+.sub-item {
+    padding: 10px 20px;
+    position: relative;
+}
+
+.sub-item:hover {
+    background-color: rgb(111, 111, 254);
+}
+
+.sub-item:hover > span {
+    color: #ffffff;
+}
+
+.nav-dropdown {
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.nav-dropdown > .angle {
+    border-bottom: 10px solid #ffffff;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 0;
+    width: 10px;
+    position: absolute;
+    bottom: 100%;
+    left: 30px;
+}
+
+.heart {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    margin-left: 300px;
+    margin-top: 200px;
+    transform: rotate(-45deg);
+    animation: dapdap 3s linear infinite;
+}
+
+.heart > * {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+}
+
+.circle {
+    border-radius: 50%;
+    position: absolute;
+}
+
+.circle-this {
+    bottom: 50%;
+    left: 0;
+}
+
+.circle-that {
+    left: 50%;
+    top: 0;
+}
+
+.square {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+}
+
+
+@keyframes dapdap {
+    0% {
+        transform:scale(0.5) rotate(-45deg);
+    }
+    40% {
+        transform:scale(1) rotate(-45deg);
+    }
+    45% {
+         transform:scale(1.5) rotate(-45deg);
+    }
+    50% {
+         transform:scale(0.5) rotate(-45deg);
+    }
+    55% {
+         transform:scale(1.5) rotate(-45deg);
+    }
+    60% {
+         transform:scale(1) rotate(-45deg);
+    }
+    100% {
+        transform:scale(0.5) rotate(-45deg);
+    }
+}
